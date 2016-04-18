@@ -1,1 +1,1 @@
-require "sinatra"
+require 'sinatra'
