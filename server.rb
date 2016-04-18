@@ -1,2 +1,2 @@
 require "sinatra"
-send_file File.expand_path('index.html', settings.public_folder)
+send_file File.join(settings.public_folder, 'index.html')
