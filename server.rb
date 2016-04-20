@@ -1,4 +1,4 @@
 require 'sinatra'
 get '/' do
-  File.read(File.join('public', 'index.html'))
+  send_file File.expand_path('index.html', settings.public)
 end
